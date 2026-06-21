@@ -48,7 +48,7 @@ const {title, description, headings, cover} = Astro.props;
           <slot/>
         </article>
         <div class="mt-10 pt-8 border-t border-gray-100 dark:border-gray-800">
-          <Comment />
+          <Comment articleTitle={title} />
         </div>
       </div>
       <div class="hidden lg:block w-56 shrink-0 order-3"></div>
